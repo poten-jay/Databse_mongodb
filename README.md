@@ -21,17 +21,17 @@ CRUD (Create, Read, Update, Delete)
 
 ---
 
-과거 프로젝트에서 DBever 를 이용해 서버 연결을 시도 했으나 실패.
+과거 프로젝트에서 DBever 를 이용해 서버 연결을 시도 했으나 실패.  
 Mongo DB를 사용해 웹앱에 CRUD를 구현하려 함 (NoSQL)
 
 ---
 
 필요 지식
 
-Node.js
-NoSQL Database (MongoDB)
-DB에 CRUD
-서버제작 (API)
+Node.js  
+NoSQL Database (MongoDB)  
+DB에 CRUD  
+서버제작 (API)  
 +서버 배포, npm, bootstrap 등..
 
 ---
