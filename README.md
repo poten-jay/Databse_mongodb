@@ -1,6 +1,6 @@
-Section3 application 만들기 re
+Section3 Database (re)
 
-DB와 CRUD 간능한 페이지 제작 
+DB와 CRUD 가능한 페이지 제작 
 
 CRUD (Create, Read, Update, Delete)
 
@@ -37,6 +37,22 @@ DB에 CRUD
 ---
 개념 정리 (쉽게 설명)
 
+https://www.youtube.com/watch?v=NoLV5iP5FNY
+
 1. SERVER
+ - <요청>을 받으면 요청한 내용을 보내주는 프로그램
  - 요구를 하면 가져다 줌 (식당 알바생)
  - 네이버 서버에 : "웹툰 주문" 하면 페이지를 가져다 줌
+
+2. 요청 (4개)
+ (1) 일기 (GET)     - 뭔가를 읽고 싶을 때  
+ (2) 쓰기 (POST)    - 뭔가를 생성할 때  
+ (3) 수정 (PUT)     - 뭔가 수정할 때  
+ (4) 삭제 (DELETE)  - 뭔가 삭제할 때
+
+---
+https://www.youtube.com/watch?v=pTm5E3jcOeY
+
+NodeJS
+
+
