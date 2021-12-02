@@ -1,0 +1,22 @@
+{
+  "name": "p3_database",
+  "version": "1.0.0",
+  "description": "Section3 Database (re)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poten-jay/Databse_mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poten-jay/Databse_mongodb/issues"
+  },
+  "homepage": "https://github.com/poten-jay/Databse_mongodb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
