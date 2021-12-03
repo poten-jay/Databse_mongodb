@@ -125,19 +125,19 @@ npm : node package manger 의 준말
 npm init : npm 을 시작한다는 정보
 
 app.js 만들기  
-add.js 만들기
-mult.js 만들기
-stat.js 만들기
+add.js 만들기  
+mult.js 만들기  
+stat.js 만들기  
 
-node app.js 실행
+node app.js 실행  
 
 ---
 
 https://www.youtube.com/watch?v=VXTJFlCZoT8
 
-add.js 삭제
-mult.js 삭제
-stat.js 삭제
+add.js 삭제  
+mult.js 삭제  
+stat.js 삭제  
 
 app.js 에 모든 코드 지우기
 
