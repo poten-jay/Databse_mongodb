@@ -1,4 +1,11 @@
-const stat = require("./stat.js");
+const readline = require("readline");
+const rl = readline.createInterface({
+    input : process.stdin,
+    output : process.stdout
+})
 
-console.log(stat.pi);
-console.log(stat.mean([1,2,3,4,5]));
+rl.question("What is your name?", (answer) => {
+    console.log('Hello ' + answer);
+
+    rl.close();
+})

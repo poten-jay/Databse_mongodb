@@ -103,7 +103,7 @@ server.js 에 코드 작성
 ---
 ---
 ---
-
+(다른 강의)  
 vs code 단축키들
 
 https://www.youtube.com/watch?v=9h8uXIsOimc&list=PLHGvDasahwZMko2OayS24NEzWYf3sMq2w&ab_channel=DannyTWLC
@@ -112,7 +112,7 @@ extention - Material Icon Theme , Bracket Pair Colorizer
 (드래그 - alt + shift + 방향키 아래 : 드래그 부분 바로 복사)
 
 단어 더블클릭 - ctrl + d (다음 같은 단어 선택) -> 여러개 선택 후 동시 변경 가능  
-             - ctrl + u (윗 단어 선택)
+단어 더블클릭 - ctrl + u (윗 단어 선택)
 
 alt + 더블클릭 : 단어 여러개 선택 후 동시에 변경 가능
 
@@ -126,7 +126,7 @@ npm init : npm 을 시작한다는 정보
 
 app.js 만들기  
 add.js 만들기
-
+mult.js 만들기
 stat.js 만들기
 
 node app.js 실행
@@ -134,6 +134,20 @@ node app.js 실행
 ---
 
 https://www.youtube.com/watch?v=VXTJFlCZoT8
+
+add.js 삭제
+mult.js 삭제
+stat.js 삭제
+
+app.js 에 모든 코드 지우기
+
+https://nodejs.org/api/  에서 코어모듈 확인 (api)
+
+readline : 유저 데이터, 파일 등 데이터 값을 받아 올 때 사용
+
+file system : 파일 경로, 데이터에 관해서 사용
+
+https://www.youtube.com/watch?v=B1jgTcjb4N8&list=PLHGvDasahwZMko2OayS24NEzWYf3sMq2w&index=7
 
 
 
