@@ -11,7 +11,7 @@ git config --global core.autocrlf true
 ---
 
 
-백엔드 MVC 작동 방식
+백엔드 MVC 작동 방식 
 
 
 <p align="center"><img src="report_images/crud.png" width="640"\></p>
@@ -145,10 +145,22 @@ https://nodejs.org/api/  에서 코어모듈 확인 (api)
 
 readline : 유저 데이터, 파일 등 데이터 값을 받아 올 때 사용
 
+---
+
 file system : 파일 경로, 데이터에 관해서 사용
 
-https://www.youtube.com/watch?v=B1jgTcjb4N8&list=PLHGvDasahwZMko2OayS24NEzWYf3sMq2w&index=7
+app.js 에 모든 코드 지우기
 
+const fs = require("fs");  
+fs.writeFileSync('./hello.txt', "hello world!")  
+실행 하면, 파일을 만들고 내용을 적는다.
+
+const data = fs.readFileSync('./hello.txt', {encoding:"utf-8"});  
+console.log(data);  
+실행 하면, 파일 내용을 읽는다.
+
+fs.appendFileSync("./hello.txt", "\nWelcom!");  
+실행 하면, 파일에 내용을 추가한다. 
 
 
 

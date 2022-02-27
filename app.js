@@ -1,11 +1,12 @@
-const readline = require("readline");
-const rl = readline.createInterface({
-    input : process.stdin,
-    output : process.stdout
-})
+const fs = require("fs");
 
-rl.question("What is your name?", (answer) => {
-    console.log('Hello ' + answer);
+// fs.writeFileSync('./hello.txt', "hello world!")
 
-    rl.close();
+// const data = fs.readFileSync('./hello.txt', {encoding:"utf-8"});
+// console.log(data);
+
+let text = "";
+fs.readFile('./hello.txt', { encoding : "utf-8"}, (err, data) => {
+    text = data;
 })
+console.log(text);
